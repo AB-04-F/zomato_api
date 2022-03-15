@@ -1,0 +1,542 @@
+db.menu.insert([{
+        "menu_id": 1,
+        "menu_name": "Paneer Bhurji",
+        "description": "Paneer Bhurji is a popular and delicious North Indian breakfast recipe made from crumbled paneer (Indian Cottage Cheese). This Paneer Bhurji Recipe is Punjabi Style and way it is made in my home.",
+        "restaurant_id": 1,
+        "menu_image": "https://www.vidhyashomecooking.com/wp-content/uploads/2021/02/PaneerBhurjiRecipe.jpg",
+        "menu_type": "veg",
+        "menu_price": 120
+    },
+    {
+        "menu_id": 2,
+        "menu_name": "Dal Tadka",
+        "description": "An Indian vegetarian dish consisting of yellow lentil cooked with turmeric and spices.",
+        "restaurant_id": 1,
+        "menu_image": "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-restaurant-style-tadka-dal-recipe-how-to-make-dal-tadka.jpg",
+        "menu_type": "veg",
+        "menu_price": 60
+    },
+    {
+        "menu_id": 3,
+        "menu_name": "Chicken Tikka Masala",
+        "description": "It is traditionally small pieces of boneless chicken baked",
+        "restaurant_id": 1,
+        "menu_image": "https://www.awesomecuisine.com/wp-content/uploads/2014/03/chicken-tikka-500x375.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 150
+    },
+    {
+        "menu_id": 4,
+        "menu_name": "Masala Rice",
+        "description": "Add salsa to the water for a spicy flavor. If you're serving rice alongside a spicier dish, you can add some spice to the rice to match. ",
+        "restaurant_id": 1,
+        "menu_image": "https://www.ayurveda.com/ayurveda/wp-content/uploads/2021/08/masala-1.jpeg",
+        "menu_type": "veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 5,
+        "menu_name": "Sezwan Masala Dosa",
+        "description": "Its basically a fusion of the South Indian and Indo Chinese cuisine",
+        "restaurant_id": 1,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/04/schezwan-dosa-recipe08.jpg",
+        "menu_type": "veg",
+        "menu_price": 170
+    },
+    {
+        "menu_id": 6,
+        "menu_name": "Mutton Biryani",
+        "description": "A Rich and Flavorful Layered Indian Dish",
+        "restaurant_id": 1,
+        "menu_image": "https://www.licious.in/blog/wp-content/uploads/2019/11/Mutton-Biryani-1-1024x1024.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 370
+    },
+    {
+        "menu_id": 7,
+        "menu_name": "Cheese Naan",
+        "description": "Naan is a leavened, oven-baked flatbread native to India",
+        "restaurant_id": 2,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/cheese-naan-recipe-2-500x375.jpg",
+
+        "menu_type": "non-veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 8,
+        "menu_name": "Baby Corn Fry",
+        "description": "Baby corn, cornlets or young corn are a cereal that comes from corn that is harvested early.",
+        "restaurant_id": 2,
+        "menu_image": "https://cdn2.foodviva.com/static-content/food-images/chinese-recipes/baby-corn-manchurian/baby-corn-manchurian.jpg",
+        "menu_type": "veg",
+        "menu_price": 100
+    },
+    {
+        "menu_id": 9,
+        "menu_name": "Ness Coffee",
+        "description": "Nescafe has a consistently rich flavor. It smells like real coffee and tastes great. ",
+        "restaurant_id": 2,
+        "menu_image": "https://static.toiimg.com/thumb/msid-75080873/75080873.jpg?width=500&resizemode=4",
+        "menu_type": "Tea & Coffee",
+        "menu_price": 45
+    },
+    {
+        "menu_id": 10,
+        "menu_name": "Veg. Tomato Piza",
+        "description": " roasted red peppers, baby spinach, onions, mushrooms, tomatoes, and black olives.",
+        "restaurant_id": 2,
+        "menu_image": "https://silveroak.com/wp-content/uploads/2020/03/Recipe-Basil-Pesto-Pizza.jpg",
+        "menu_type": "veg",
+        "menu_price": 100
+    },
+    {
+        "menu_id": 11,
+        "menu_name": "Pasta Salad",
+        "description": "a salad having any of various pastas as the base",
+        "restaurant_id": 2,
+        "menu_image": "https://www.cookingclassy.com/wp-content/uploads/2021/05/italian-pasta-salad-15.jpg",
+        "menu_type": "salad",
+        "menu_price": 110
+    },
+    {
+        "menu_id": 12,
+        "menu_name": "Oreo Shake",
+        "description": "Vanilla ice cream, Oreo cookies, milk, and chocolate sauce.",
+        "restaurant_id": 2,
+        "menu_image": "https://www.whiskaffair.com/wp-content/uploads/2020/07/Oreo-Milkshake-2-3.jpg",
+        "menu_type": "drinks",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 13,
+        "menu_name": "Spring Rolls",
+        "description": "These Spring rolls are a popular Chinese snack of crispy rolls filled with a savory mixed vegetables stuffing. ",
+        "restaurant_id": 4,
+        "menu_image": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2016/09/spring-roll-recipe-step-by-step-instructions.jpg?fit=3766%2C3024&quality=65&strip=all&ssl=1",
+        "menu_type": "veg",
+        "menu_price": 120
+    },
+    {
+        "menu_id": 14,
+        "menu_name": "Chicken Fried Rice",
+        "description": " a dish of boiled or steamed rice that is stir-fried typically with soy sauce, beaten egg, chopped meat, and vegetables.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.simplyrecipes.com/thmb/deUc73evxfNyQaRQgc9gVZ1ha9A=/2000x1335/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__12__2017-12-Chicken-Fried-Rice-2-15ac7014b47b40a1a7c7e20a638f4295.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 180
+    },
+    {
+        "menu_id": 15,
+        "menu_name": "Aloo Tikki",
+        "description": "a popular Indian street food snack made with boiled potatoes, aromatic spices and herbs.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2009/08/aloo-tikki-1.jpg",
+        "menu_type": "veg",
+        "menu_price": 70
+    },
+    {
+        "menu_id": 16,
+        "menu_name": " Bhendi fry",
+        "description": " a healthy dish made with okra, whole and ground spices, onions & tomatoes. ",
+        "restaurant_id": 4,
+        "menu_image": "https://www.whiskaffair.com/wp-content/uploads/2018/11/Bhindi-Masala-2-3.jpg",
+        "menu_type": "Veg",
+        "menu_price": 180
+    },
+    {
+        "menu_id": 17,
+        "menu_name": "Rose Shake",
+        "description": "sweetened with sugar and flavored with rose essence.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/03/rose-milk-recipe-1-500x500.jpg",
+        "menu_type": "drink",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 18,
+        "menu_name": "Veg Kadai",
+        "description": "This delicious and vibrant Veg Kadai gravy is filled with rich flavors, aromatic spices and vegetables.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.cookclickndevour.com/wp-content/uploads/2018/09/kadai-vegetables-recipe-2.jpg",
+        "menu_type": "veg",
+        "menu_price": 120
+    },
+    {
+        "menu_id": 19,
+        "menu_name": "Dal Makhani",
+        "description": "a modern take on the age-old urad ki dal ",
+        "restaurant_id": 3,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/01/dal-makhani-recipe-1.jpg",
+        "menu_type": "veg",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 20,
+        "menu_name": "Pav Bhaji",
+        "description": "a spiced mixture of mashed vegetables in a thick gravy served with bread.",
+        "restaurant_id": 3,
+        "menu_image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/11/pav-bhaji.jpg",
+        "menu_type": "veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 21,
+        "menu_name": "Special Gujarati Thali",
+        "description": "one or two steamed or fried snacks called farsans, a green vegetable, a tuber or a gourd shaak ",
+        "restaurant_id": 3,
+        "menu_image": "https://www.culturalindia.net/iliimages/Gujarati-Food-1.jpg",
+        "menu_type": "veg",
+        "menu_price": 190
+    },
+    {
+        "menu_id": 22,
+        "menu_name": "Garlic Soup",
+        "description": "peel all of the cloves and slice them and put the slices into the soup ",
+        "restaurant_id": 3,
+        "menu_image": "https://www.godairyfree.org/wp-content/uploads/2006/05/Garlic-Cream-Soup-feature.jpg",
+        "menu_type": "soup",
+        "menu_price": 300
+    },
+    {
+        "menu_id": 23,
+        "menu_name": "Cucumber Tamoto Salad",
+        "description": "a classic salad, light, cooling, and oh-so refreshing",
+        "restaurant_id": 3,
+        "menu_image": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Tomato-Onion-and-Cucumber-Salad-Recipe-2-1200.jpg",
+        "menu_type": "salad",
+        "menu_price": 130
+    },
+    {
+        "menu_id": 24,
+        "menu_name": "Vegetable Omlet",
+        "description": " a dish made from eggs that are mixed together, cooked without stirring",
+        "restaurant_id": 3,
+        "menu_image": "https://images-gmi-pmc.edge-generalmills.com/ab0d7c52-438b-4d8a-bcba-7d5eb18ee892.jpg",
+        "menu_type": "veg",
+        "menu_price": 200
+    },
+    {
+        "menu_id": 25,
+        "menu_name": "Rice & curry with Fish",
+        "description": "Food Eating Fish Egg and Fish Curry Eating With Basmati Rice Mukbang ",
+        "restaurant_id": 5,
+        "menu_image": "https://meet.google.com/xdj-enbi-mwi",
+        "menu_type": "non-veg",
+        "menu_price": 270
+    },
+    {
+        "menu_id": 26,
+        "menu_name": "Mashroom Mutter",
+        "description": "a semi-dry delicious vegetable dish made with peas and mushroom",
+        "restaurant_id": 5,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2iRxSvrUBoH-LGwUjm6u1Z4a7r_dxM4wg_A&usqp=CAU",
+        "menu_type": "veg",
+        "menu_price": 250
+    },
+    {
+        "menu_id": 27,
+        "menu_name": "Apple",
+        "description": " a delicious, quick and easy shake with fresh seasonal apples",
+        "restaurant_id": 5,
+        "menu_image": "https://reciperunner.com/wp-content/uploads/2013/09/Apple-Cinnamon-Smoothie-Photograph-720x720.jpg",
+        "menu_type": "shake",
+        "menu_price": 65
+    },
+    {
+        "menu_id": 28,
+        "menu_name": "Badam Milk",
+        "description": "A super easy, wholesome and delicious shake recipe, full with the crunch of almonds, flavours of cardamom, saffron and cream!",
+        "restaurant_id": 5,
+        "menu_image": "https://mitalideliciouskitchen.com/wp-content/uploads/2021/03/IMG_20210324_143117.jpg",
+        "menu_type": "shake",
+        "menu_price": 190
+    },
+    {
+        "menu_id": 29,
+        "menu_name": "Black Coffee",
+        "description": "simply coffee that is normally brewed without the addition of additives such as sugar, milk, cream, or added flavors",
+        "restaurant_id": 5,
+        "menu_image": "https://www.healthifyme.com/blog/wp-content/uploads/2019/09/Making-black-coffee.jpg",
+        "menu_type": "Tea & coffee",
+        "menu_price": 20
+    },
+    {
+        "menu_id": 30,
+        "menu_name": "Sweet Corn Veg Soup",
+        "description": " a soup made of corn, typically sweetcorn",
+        "restaurant_id": 5,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9WnFobHcVw470x1RB6QlybaBzzxP1a89gw&usqp=CAU",
+        "menu_type": "soup",
+        "menu_price": 50
+    },
+    {
+        "menu_id": 31,
+        "menu_name": "Chilly Potato",
+        "description": " a delicious starter from Indian-Chinese cuisine which is also served as a snack and an appetizer",
+        "restaurant_id": 6,
+        "menu_image": "https://myfoodstory.com/wp-content/uploads/2018/10/Crispy-Honey-Chilli-Potatoes-1.jpg",
+        "menu_type": "veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 32,
+        "menu_name": "Onion Dosa",
+        "description": "a thin pancake originating from South India",
+        "restaurant_id": 6,
+        "menu_image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Divya_Shivaraman_/Onion_Tomato_Podi_Masala_Dosa.jpg",
+        "menu_type": "veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 33,
+        "menu_name": "Yummy cheese sauce",
+        "description": "A dish of macaroni and cheese, the basis of which is cheddar sauce",
+        "restaurant_id": 6,
+        "menu_image": "https://www.seriouseats.com/thmb/bTN6SLkptERCEbWXwbn2khPS-fE=/610x458/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100917-cheese-sauce-16-1075d61c77cf484aa3aea7b376f42ffc.jpg",
+        "menu_type": "veg",
+        "menu_price": 110
+    },
+    {
+        "menu_id": 34,
+        "menu_name": "Reshmi Kabab",
+        "description": "Pieces of Boneless Chicken Breast, marinated in juicy mixture",
+        "restaurant_id": 6,
+        "menu_image": "https://i.ytimg.com/vi/W1pNwLSAajQ/maxresdefault.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 240
+    },
+    {
+        "menu_id": 35,
+        "menu_name": "Murg Curry",
+        "description": "a combination of sweet and savory spices that constitutes its makeup",
+        "restaurant_id": 6,
+        "menu_image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Curry-recipe.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 250
+    },
+    {
+        "menu_id": 36,
+        "menu_name": "Talumein",
+        "description": "a delicious Indo-China dish which is normally found on menus of most of the Chinese restaurants in India",
+        "restaurant_id": 6,
+        "menu_image": "https://hirasweets.com/wp-content/uploads/2020/06/rtsadfsgsfg.jpg",
+        "menu_type": "soup",
+        "menu_price": 110
+    },
+    {
+        "menu_id": 37,
+        "menu_name": "Fish Tikka",
+        "description": "a classic Indian tandoori masala and crisped to perfection in an Airfyer, Crisplid or oven broiler",
+        "restaurant_id": 7,
+        "menu_image": "https://vaya.in/recipes/wp-content/uploads/2018/03/Fish-Tikka.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 380
+    },
+    {
+        "menu_id": 38,
+        "menu_name": "Mushroom Kofta in Tomato Gravy",
+        "description": "a crowd pleaser.Plump mushrooms stuffed with spinach and paneer, and then dipped in a tangy tomato gravy",
+        "restaurant_id": 7,
+        "menu_image": "https://i.ndtvimg.com/i/2015-10/kofta_625x350_81443675636.jpg",
+        "menu_type": "veg",
+        "menu_price": 220
+    },
+    {
+        "menu_id": 39,
+        "menu_name": "Orange",
+        "description": "a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges.",
+        "restaurant_id": 7,
+        "menu_image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/orange-juice-1296x728-feature.jpg?w=1155&h=1528",
+        "menu_type": "drink",
+        "menu_price": 30
+    },
+    {
+        "menu_id": 40,
+        "menu_name": "Chicken Thai Noodles",
+        "description": "a sweet-savory fusion",
+        "restaurant_id": 7,
+        "menu_image": "https://www.jocooks.com/wp-content/uploads/2015/11/spicy-thai-chicken-and-veggie-noodles-1.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 150
+    },
+    {
+        "menu_id": 41,
+        "menu_name": "Aloo Jeera",
+        "description": " a flavourful & delicious North Indian side dish made with potatoes, spices and herbs",
+        "restaurant_id": 7,
+        "menu_image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fjeera-aloo-recipe%2F&psig=AOvVaw1sLHewGzoiyZLzqCHq5CoO&ust=1645286851886000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOD8x6XRifYCFQAAAAAdAAAAABAD",
+        "menu_type": "veg",
+        "menu_price": 100
+    },
+    {
+        "menu_id": 42,
+        "menu_name": "Chicken Biryani",
+        "description": "a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",
+        "restaurant_id": 7,
+        "menu_image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x375.jpg",
+        "menu_type": "non-veg",
+        "menu_price": 300
+    },
+    {
+        "menu_id": 43,
+        "menu_name": "Lassi",
+        "description": "a creamy, frothy yogurt-based drink, blended with water and various fruits or seasonings",
+        "restaurant_id": 8,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/sweet-lassi-recipe.jpg",
+        "menu_type": "Drink",
+        "menu_price": 60
+    },
+    {
+        "menu_id": 44,
+        "menu_name": "Tawa Roti",
+        "description": "a round flatbread",
+        "restaurant_id": 8,
+        "menu_image": "https://www.cookwithmanali.com/wp-content/uploads/2020/03/Roti-Recipe-Indian-flatbread-500x500.jpg",
+        "menu_type": "veg",
+        "menu_price": 12
+    },
+    {
+        "menu_id": 45,
+        "menu_name": "Rajma chawal",
+        "description": "perfect for a Sunday brunch or on a get-together",
+        "restaurant_id": 8,
+        "menu_image": "https://www.spiceupthecurry.com/wp-content/uploads/2021/06/rajma-chawal-2.jpg",
+        "menu_type": "veg",
+        "menu_price": 100
+    },
+    {
+        "menu_id": 46,
+        "menu_name": "Chocalate Shake",
+        "description": "milk and chocolate syrup",
+        "restaurant_id": 8,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXt3PKfRcs_Pl_V21Z1WSS9MZL1nFlCYcBAA&usqp=CAU",
+        "menu_type": "shake",
+        "menu_price": 40
+    },
+    {
+        "menu_id": 47,
+        "menu_name": "Palak Soup",
+        "description": "Flavorful aromatics are sauteed with fresh spinach, then made faintly thick and mildly sweet with chickpea/gram flour",
+        "restaurant_id": 8,
+        "menu_image": "https://www.thespruceeats.com/thmb/CiJBRuIWvKCWgvfqdXJPyauX-DA=/4094x2303/smart/filters:no_upscale()/spinach-and-rosemary-soup-in-bowl-with-swirl-of-cream-and-flowering-rosemary-sprig-garnish-149269249-588b54cd5f9b5874ee1e98cf.jpg",
+        "menu_type": "soup",
+        "menu_price": 60
+    },
+    {
+        "menu_id": 48,
+        "menu_name": "Methi Paratha",
+        "description": "Indian flatbreads made with whole wheat flour, spices and fenugreek leaves aka methi leaves.",
+        "restaurant_id": 8,
+        "menu_image": "https://www.whiskaffair.com/wp-content/uploads/2020/04/Methi-Paratha-3.jpg",
+        "menu_type": "Veg",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 49,
+        "menu_name": "Poha",
+        "description": "flattened rice that is steam cooked with onions, spices and herbs",
+        "restaurant_id": 9,
+        "menu_image": "https://www.mapsofindia.com/ci-moi-images/my-india/2013/05/poha-665x443.jpg",
+        "menu_type": "Veg",
+        "menu_price": 15
+    },
+    {
+        "menu_id": 50,
+        "menu_name": "Cocoa",
+        "description": "a drink made with cocoa powder, hot milk or water, and sweetened to taste with sugar ",
+        "restaurant_id": 9,
+        "menu_image": "https://timesofindia.indiatimes.com/thumb/msid-77805126,imgsize-331764,width-400,resizemode-4/77805126.jpg",
+        "menu_type": "Drink",
+        "menu_price": 20
+    },
+    {
+        "menu_id": 51,
+        "menu_name": "Cheese Tawa Pulao",
+        "description": "basmati rice with aromatic spices, herbs & sometimes stock.",
+        "restaurant_id": 9,
+        "menu_image": "https://cdn3.foodviva.com/static-content/food-images/instant-recipes/tawa-pulao/tawa-pulao.jpg",
+        "menu_type": "veg",
+        "menu_price": 120
+    },
+    {
+        "menu_id": 52,
+        "menu_name": "Veg. Grill Sandwich",
+        "description": "heating one or more slices of cheese between slices of bread",
+        "restaurant_id": 9,
+        "menu_image": "https://static.toiimg.com/thumb/54714340.cms?imgsize=458099&width=800&height=800",
+        "menu_type": "veg",
+        "menu_price": 80
+    },
+    {
+        "menu_id": 53,
+        "menu_name": "Bisleri",
+        "description": "an Indian beverages company best known for its eponymous Bisleri brand of bottled mineral water",
+        "restaurant_id": 9,
+        "menu_image": "https://bisleri-shop-storage.s3.ap-south-1.amazonaws.com/posts/June2021/1m53DFql9XibM41BUVHW.jpg",
+        "menu_type": "Drink",
+        "menu_price": 20
+    },
+    {
+        "menu_id": 54,
+        "menu_name": "French Fries",
+        "description": " deep-fried, very thin, salted slices of potato",
+        "restaurant_id": 9,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/french-fries-recipe-1.jpg",
+        "menu_type": "veg",
+        "menu_price": 60
+    },
+    {
+        "menu_id": 55,
+        "menu_name": "Cream Of Broccoli Soup",
+        "description": "a semisolid form of cream, it's right at home in this soup",
+        "restaurant_id": 10,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/cream-of-broccoli-soup-02.jpg",
+        "menu_type": "Soup",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 56,
+        "menu_name": "Dal Tadka",
+        "description": "one of the most popular lentil dish served in Indian restaurants",
+        "restaurant_id": 10,
+        "menu_image": "https://spicecravings.com/wp-content/uploads/2021/05/Dal-Tadka-Featured.jpg",
+        "menu_type": "Veg",
+        "menu_price": 110
+    },
+    {
+        "menu_id": 57,
+        "menu_name": "Paneer Pakora",
+        "description": " savory gram flour batter coated Indian cottage cheese fritters. Paneer pakora make for quick evening snack having a lovely ",
+        "restaurant_id": 10,
+        "menu_image": "https://spoonsofflavor.com/wp-content/uploads/2021/07/Paneer-Pakora-Recipe.jpg",
+        "menu_type": "Veg",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 58,
+        "menu_name": "Kiwi Shake",
+        "description": "a good combination of milk and kiwi",
+        "restaurant_id": 10,
+        "menu_image": "https://www.acouplecooks.com/wp-content/uploads/2020/12/Kiwi-Smoothie-006.jpg",
+        "menu_type": "Drink",
+        "menu_price": 90
+    },
+    {
+        "menu_id": 59,
+        "menu_name": "Hydrabadi Pulav",
+        "description": "a special food of Hydrabadi !!",
+        "restaurant_id": 10,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWt6VclXwUn8kTGAIVkaSeu8Wk2h00QVwaNA&usqp=CAU",
+        "menu_type": "Veg",
+        "menu_price": 150
+    },
+    {
+        "menu_id": 60,
+        "menu_name": "Hot Bournvita",
+        "description": " a chocolate powder manufactured by Cadbury which is mixed with milk and made into a drink! ",
+        "restaurant_id": 10,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIB77bjIrvKrPnmIIw3wMB3KYc0Z9ZEJ2fg&usqp=CAU",
+        "menu_type": "Drink",
+        "menu_price": 50
+    }
+])

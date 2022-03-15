@@ -1,0 +1,398 @@
+db.zomato.insert([{
+        "restaurant_id": 1,
+        "restaurant_name": "Rajwadu",
+        "location_id": 1,
+        "state_id": 1,
+        "address": "Nr. Jivraj Tolnaka, Behind Ambaji Temple, Malav Talav, Ahmedabad, Gujarat",
+        "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg",
+        "avarage_rating": 4.4,
+        "rating_text": "Very Good",
+        "cost": 530,
+        "contact_number": 7926643839,
+        "meal_type": [{
+                "mealtype_id": 1,
+                "mealtype_name": "Breakfast"
+
+            },
+            {
+                "mealtype_id": 2,
+                "mealtype_name": "Lunch"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 1,
+                "cuisine_name": "Gujarati Thali"
+            },
+            {
+                "cuisine_id": 4,
+                "cuisine_name": "Fast Food"
+            }
+
+        ],
+        "image_gallary": [
+            "https://assets.cntraveller.in/photos/60ba25fb002baf698cc67900/master/w_1600%2Cc_limit/Takeaway-Thali.-at-Agashiya-866x577.jpg",
+            "https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/5/23/indian-thali.jpg",
+            "https://media.istockphoto.com/photos/close-up-of-fast-food-snacks-and-drink-on-table-picture-id487077896?k=20&m=487077896&s=612x612&w=0&h=2zEtgcJelNP663Z5W08Yd9gqJ-25HTzRXL04rrOZh0c=",
+            "https://c4.wallpaperflare.com/wallpaper/946/274/339/food-burgers-fast-food-fries-wallpaper-preview.jpg"
+        ]
+    },
+    {
+        "restaurant_id": 2,
+        "restaurant_name": "Earthen Oven",
+        "location_id": 1,
+        "state_id": 1,
+        "address": " Fortune Landmark, Ashram Rd, Ahmedabad, Gujarat 380013",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x395e846254697a4f%3A0x33ec3ba957536d8e!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMnEZxX5gqr5TLNEnImIF7mx6Zzte_UXkXWMuos%3Dw260-h175-n-k-no!5sahmedabad%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e1!2shttp%3A%2F%2Fim1.dineout.co.in%2Fimages%2Fuploads%2Frestaurant%2Fsharpen%2F2%2Fl%2Fn%2Fp2481-1497958070594906b6a85d3.jpg&hl=en#",
+        "avarage_rating": 4.4,
+        "rating_text": "Very Good",
+        "cost": 460,
+        "contact_number": 7966824444,
+        "meal_type": [{
+                "mealtype_id": 1,
+                "mealtype_name": "Breakfast"
+
+            },
+            {
+                "mealtype_id": 4,
+                "mealtype_name": "Dinner"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 3,
+                "cuisine_name": "North Indian"
+            },
+            {
+                "cuisine_id": 5,
+                "cuisine_name": "Street Food"
+            }
+
+        ],
+        "image_gallary": [
+            "https://media.istockphoto.com/photos/indian-feast-with-butter-chicken-chicken-tandoori-lamb-curry-curry-picture-id889609260?k=20&m=889609260&s=612x612&w=0&h=Xfyt88TA_2XpqVZVwnjMT9pPvvvDqvlMi9Pfj8EXwMs=",
+            "https://masalabuzz.com/wp-content/uploads/2021/06/North-Indian-cover-food.jpg",
+            "https://wonderfulmumbai.com/wp-content/uploads/2015/03/Mumbai_Pav_Bhaji.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBVRNZB04zNsFe-HNYiMtPZ3HEBL_iKJnikBFdXFsPxmR6TtqMmqQDpv3VDRrhB9r29I&usqp=CAU"
+
+        ]
+    },
+    {
+        "restaurant_id": 3,
+        "restaurant_name": "China House",
+        "location_id": 1,
+        "state_id": 1,
+        "address": "2nd Floor, 17/A, Hyatt Regency Ahmedabad, Ashram Rd, Ahmedabad, Gujarat 380014",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x395e84619f81cb7f%3A0x66afc8f5fd030d7c!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMetp0C2wXVZKw7-tfIPNF7ZWR33OXQ0YCKccwQ%3Dw260-h175-n-k-no!5sahmedabad%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMetp0C2wXVZKw7-tfIPNF7ZWR33OXQ0YCKccwQ&hl=en#",
+        "avarage_rating": 5,
+        "rating_text": "Excellent",
+        "cost": 750,
+        "contact_number": 7940171144,
+        "meal_type": [{
+                "mealtype_id": 2,
+                "mealtype_name": "Lunch"
+
+            },
+            {
+                "mealtype_id": 4,
+                "mealtype_name": "Dinner"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 6,
+                "cuisine_name": "Punjabi"
+            },
+            {
+                "cuisine_id": 4,
+                "cuisine_name": "FastFood"
+            }
+
+        ],
+        "image_gallary": [
+            "https://m.economictimes.com/thumb/msid-71121981,width-1200,height-900,resizemode-4,imgsize-810723/butter-chicken-1.jpg",
+            "https://t4.ftcdn.net/jpg/02/12/69/59/360_F_212695921_GaiXzq0hWQHwAtNzTNkEu7HYKpBfcgmj.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-MyIU_-i5NYPYjYLm2N1h1yLawxu9QLqThg&usqp=CAU",
+            "https://img.bestrecipes.com.au/iyddCRce/br/2019/02/1980-crunchy-chicken-twisties-drumsticks-951509-1.jpg"
+
+        ]
+    },
+    {
+        "restaurant_id": 4,
+        "restaurant_name": "Mahal Restaurant",
+        "location_id": 5,
+        "state_id": 2,
+        "address": "6/3, Ramanath Majumdar Street, Amherst St, Kolkata, West Bengal 700009",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x3a02764630db4269%3A0x17a69aa8a52ad494!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcJQmxSGZeE7eFgxFCrqiDtNaYnjI-X46crjYZ%3Dw260-h175-n-k-no!5swest%20bengal%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipOcJQmxSGZeE7eFgxFCrqiDtNaYnjI-X46crjYZ&hl=en#",
+        "avarage_rating": 4.1,
+        "rating_text": "Good",
+        "cost": 400,
+        "contact_number": 9830265708,
+        "meal_type": [{
+                "mealtype_id": 1,
+                "mealtype_name": "Breakfast"
+
+            },
+            {
+                "mealtype_id": 3,
+                "mealtype_name": "snacks"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 7,
+                "cuisine_name": "Chinese"
+            },
+            {
+                "cuisine_id": 8,
+                "cuisine_name": "South Indian"
+            }
+
+        ],
+        "image_gallary": [
+            "https://images.moneycontrol.com/static-mcnews/2021/04/paratha_shutterstock_1641709639-770x433.jpg?impolicy=website&width=770&height=431",
+            "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/dmessz1bb5rguc5rqqqh",
+            "https://assets3.thrillist.com/v1/image/1864928/828x610/flatten;crop;webp=auto;jpeg_quality=70",
+            "https://cms.qz.com/wp-content/uploads/2018/10/Gobi_Manchurian-color-corrected.jpg?quality=75&strip=all&w=410&h=231"
+
+        ]
+    },
+    {
+        "restaurant_id": 5,
+        "restaurant_name": "Sonargaon",
+        "location_id": 5,
+        "state_id": 2,
+        "address": " Taj Bengal, 34B, Belvedere Road, Kolkata, West Bengal 700027",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x3a0277681ca27a03%3A0x72cdf3b403f693d8!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipONhIl9dNdTEz-nYr0LLP4DRf59ncdV25xfuC0H%3Dw260-h175-n-k-no!5swest%20bengal%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipNEwZEiU8nU1E_gDm_cxErsFIAtDL1bhWn2Apkp&hl=en#",
+        "avarage_rating": 4.6,
+        "rating_text": "Very Good",
+        "cost": 890,
+        "contact_number": 3366123939,
+        "meal_type": [{
+                "mealtype_id": 1,
+                "mealtype_name": "Lunch"
+
+            },
+            {
+                "mealtype_id": 4,
+                "mealtype_name": "Dinner"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 4,
+                "cuisine_name": "Fast Food"
+            },
+            {
+                "cuisine_id": 8,
+                "cuisine_name": "South Indian"
+            }
+
+        ],
+        "image_gallary": [
+            "https://content3.jdmagicbox.com/comp/chennai/f4/044pxx44.xx44.101011120357.h9f4/catalogue/breeze-fast-food-neelankarai-palavakkam-chennai-fast-food-1r0fnd4.jpg",
+            "https://www.thespruceeats.com/thmb/z3rHPfOk6LTpeF21SetOZnY_hUg=/3589x3589/smart/filters:no_upscale()/GettyImages-1157700503-170c669798bc44c9a70d755674ad94ec.jpg",
+            "https://5.imimg.com/data5/OR/OI/MY-10374842/south-indian-food-dosa-500x500.png",
+            "https://imgmedia.lbb.in/media/2020/07/5f1aae5569244d09219586ae_1595584085577.jpg"
+
+        ]
+    },
+    {
+        "restaurant_id": 6,
+        "restaurant_name": "South Bombay Cafe",
+        "location_id": 14,
+        "state_id": 4,
+        "address": "CSI Airport, 5A & 5B, Ground floor, The ORB, IA Project Rd, Andheri (E, Mumbai, Maharashtra 400099",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x3be7c974aaf71993%3A0x2f1c4a6e048ef9a9!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMkdhyJjxwN8y1pkuEyfl6zgEIKBBhMOzilIE5R%3Dw260-h175-n-k-no!5smumbai%20restaurants%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMkdhyJjxwN8y1pkuEyfl6zgEIKBBhMOzilIE5R&hl=en#",
+        "avarage_rating": 4.2,
+        "cost": 900,
+        "contact_number": 7021808116,
+        "meal_type": [{
+                "mealtype_id": 2,
+                "mealtype_name": "Lunch"
+
+            },
+            {
+                "mealtype_id": 5,
+                "mealtype_name": "Drinks"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 7,
+                "cuisine_name": "Chinese"
+            },
+            {
+                "cuisine_id": 4,
+                "cuisine_name": "Fast Food"
+            }
+
+        ],
+        "image_gallary": [
+            "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8hwHKh0mSSfUp4lWfnt0dLcxhUicXDODxg&usqp=CAU",
+            "https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9555.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOm2_uW0T5fknfbx4RB3RYn-UC-RDv7DDbjw&usqp=CAU"
+
+        ]
+    },
+    {
+        "restaurant_id": 7,
+        "restaurant_name": "Maharashtra Family Garden & Restaurant",
+        "location_id": 14,
+        "state_id": 4,
+        "address": "Old Mumbai Pune Highway, Opp Ladkat Petrol Pump, Somatne Phata, Pune, Maharashtra 410506",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x3bc2b054c9bca1ef%3A0x3a59d2f056904905!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO55C7U7WCnCTPDa_pxRNPqOszkLUtvKgHdKjIp%3Dw260-h175-n-k-no!5sMaharashtra%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipO55C7U7WCnCTPDa_pxRNPqOszkLUtvKgHdKjIp&hl=en#",
+        "avarage_rating": 4.0,
+        "rating_text": "Good",
+        "cost": 640,
+        "contact_number": 9975062786,
+        "meal_type": [{
+                "mealtype_id": 3,
+                "mealtype_name": "Snacks"
+
+            },
+            {
+                "mealtype_id": 4,
+                "mealtype_name": "Dinner"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 5,
+                "cuisine_name": "Street Food"
+            },
+            {
+                "cuisine_id": 3,
+                "cuisine_name": "North Indian"
+            }
+
+        ],
+        "image_gallary": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBicErDRdZkYsbIWoK0qo9gA-dOt5gzyaMBw&usqp=CAU",
+            "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwc3RyZWV0JTIwZm9vZHxlbnwwfHwwfHw%3D&w=1000&q=80",
+            "https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2016/01/mastkalandar-f.jpg",
+            "https://media.istockphoto.com/photos/butter-chicken-indian-chicken-curry-dish-picture-id1163558777?k=20&m=1163558777&s=612x612&w=0&h=FZja9Vp0q3UF1Ef5ZkuA8ERQmubvktDWnM27icm60d8="
+
+        ]
+    },
+    {
+        "restaurant_id": 8,
+        "restaurant_name": "South Bombay Cafe",
+        "location_id": 14,
+        "state_id": 4,
+        "address": "CSI Airport, 5A & 5B, Ground floor, The ORB, IA Project Rd, Andheri (E, Mumbai, Maharashtra 400099",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x3be7c974aaf71993%3A0x2f1c4a6e048ef9a9!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMkdhyJjxwN8y1pkuEyfl6zgEIKBBhMOzilIE5R%3Dw260-h175-n-k-no!5smumbai%20restaurants%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMkdhyJjxwN8y1pkuEyfl6zgEIKBBhMOzilIE5R&hl=en#",
+        "avarage_rating": 4.2,
+        "cost": 900,
+        "contact_number": 7021808116,
+        "meal_type": [{
+                "mealtype_id": 2,
+                "mealtype_name": "Lunch"
+
+            },
+            {
+                "mealtype_id": 5,
+                "mealtype_name": "Drinks"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 7,
+                "cuisine_name": "Chinese"
+            },
+            {
+                "cuisine_id": 4,
+                "cuisine_name": "Fast Food"
+            }
+
+        ],
+        "image_gallary": [
+            "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8hwHKh0mSSfUp4lWfnt0dLcxhUicXDODxg&usqp=CAU",
+            "https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9555.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOm2_uW0T5fknfbx4RB3RYn-UC-RDv7DDbjw&usqp=CAU"
+
+        ]
+    },
+    {
+        "restaurant_id": 9,
+        "restaurant_name": "Manohar Dairy & Restaurant",
+        "location_id": 21,
+        "state_id": 5,
+        "address": "132 A & B, Ram Gopal Maheshwari Marg, near Jyoti Talkies, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462001",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x397c4267b6b6b3ff%3A0xaa3321234e078439!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPpt4YS_C37KBJFczzowyIIu-uYsOdtCWxM7lEJ%3Dw260-h175-n-k-no!5smadhya%20pradesh%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipPpt4YS_C37KBJFczzowyIIu-uYsOdtCWxM7lEJ&hl=en#",
+        "avarage_rating": 4.3,
+        "rating_text": "Very Good",
+        "cost": 860,
+        "contact_number": 7554040406,
+        "meal_type": [{
+                "mealtype_id": 4,
+                "mealtype_name": "Dinner"
+
+            },
+            {
+                "mealtype_id": 6,
+                "mealtype_name": "NightLife"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 1,
+                "cuisine_name": "Gujarati Thali"
+            },
+            {
+                "cuisine_id": 3,
+                "cuisine_name": "North Indian"
+            }
+
+        ],
+        "image_gallary": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe9GAUjQMLrbdb2Nj2k1W6LJIhYlISH52-g&usqp=CAU",
+            "https://www.saralstudy.com/blog/wp-content/uploads/2020/09/MP-food.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdRaFXsoDN3RQflBhbmrF9CX8yyquwZQb_Q&usqp=CAU",
+            "https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2907%2Ftrend20200804121656.jpg"
+
+        ]
+    },
+    {
+        "restaurant_id": 10,
+        "restaurant_name": "The Public House Restaurant",
+        "location_id": 14,
+        "state_id": 4,
+        "address": "Lower ground floor, Mahadev Complex 7, Service Road, opposite Board Office (MP Board Office), No 6 Locality, Shivaji Nagar, Bhopal, Madhya Pradesh 462016",
+        "restaurant_thumb": "https://www.google.com/maps/uv?pb=!1s0x397c425deee170e1%3A0x5cbbb336a4ea976d!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOHgxMS2xsYvRyOStk011-W7s3nHbhW5FGq-UM%3Dw260-h175-n-k-no!5sbhopal%20restaurant%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipOHgxMS2xsYvRyOStk011-W7s3nHbhW5FGq-UM&hl=en#",
+        "avarage_rating": 4.2,
+        "rating_text": "Excellent",
+        "cost": 1000,
+        "contact_number": 7999192203,
+        "meal_type": [{
+                "mealtype_id": 2,
+                "mealtype_name": "Lunch"
+
+            },
+            {
+                "mealtype_id": 5,
+                "mealtype_name": "Drinks"
+
+            }
+        ],
+        "cuisins": [{
+                "cuisine_id": 6,
+                "cuisine_name": "Punjabi"
+            },
+            {
+                "cuisine_id": 4,
+                "cuisine_name": "Fast Food"
+            }
+
+        ],
+        "image_gallary": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9sOlFxBwMl-yJnvAjTEuEr5D4ASTHPXkMg&usqp=CAU",
+            "https://us.123rf.com/450wm/espies/espies1712/espies171200554/91679389-dal-makhani-or-dal-makhni-is-a-popular-food-from-punjab-india-made-using-whole-black-lentil-red-kidn.jpg?ver=6",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-01-23-at-3-49-58-pm-1579812610.png?crop=0.713xw:1.00xh;0.144xw,0&resize=640:*",
+            "https://ychef.files.bbci.co.uk/976x549/p08v90pv.jpg"
+
+        ]
+    }
+])
